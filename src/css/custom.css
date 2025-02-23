@@ -1,0 +1,42 @@
+:root {
+  --ifm-color-primary: #f7a1b3;
+  --ifm-color-primary-dark: #f699ac;
+  --ifm-color-primary-darker: #f591a5;
+  --ifm-color-primary-darkest: #f2899d;
+  --ifm-color-primary-light: #f8a7ba;
+  --ifm-color-primary-lighter: #f9adb0;
+  --ifm-color-primary-lightest: #fad3d2;
+  --ifm-code-font-size: 95%;
+  --ifm-heading-color: #fcd2f1;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ddd;
+  --ifm-color-primary-dark: #D0BFFF;
+  --ifm-color-primary-darker: #DFCCFB;
+  --ifm-color-primary-darkest: #f699ac;
+  --ifm-color-primary-light: #fab1b5;
+  --ifm-color-primary-lighter: #fac7c0;
+  --ifm-color-primary-lightest: #fadcd0;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-background-color: #B7B1F2;
+  --ifm-navbar-link-color: #333333;
+  --ifm-navbar-link-hover-color: #333;
+  --ifm-link-hover-color: #FBF3B9;
+  --ifm-link-color: #F7CFD8;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #222;
+}
+
+.navbar__link--active {
+  border-bottom: 2px solid #333;
+  /*font-weight: bolder;*/
+  transform: translateY(2px);
+}
+
+.navbar__title {
+  font-size: x-large;
+}
