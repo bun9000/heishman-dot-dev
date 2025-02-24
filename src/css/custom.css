@@ -25,6 +25,9 @@
   --ifm-navbar-link-hover-color: #333;
   --ifm-link-hover-color: #FBF3B9;
   --ifm-link-color: #F7CFD8;
+  --ifm-hr-background-color: #DBD3B9;
+  --ifm-hr-height: 1px;
+  /*--ifm-hr-margin-vertical-top: 1px;*/
 }
 
 .footer--dark {
@@ -39,4 +42,54 @@
 
 .navbar__title {
   font-size: x-large;
+}
+
+h1 {
+  /*color: #FBF3B9;*/
+  font-size: 3em;
+  /*font-weight: normal;*/
+}
+
+h2 {
+  margin-top: 2em;
+  color: #FBF3B9;
+  font-weight: normal;
+  font-size: 1.9em;
+}
+
+h3 {
+  color: #B7B1F2;
+  margin-top: 2.5em;
+  font-weight: normal;
+
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+
+}
+
+h3 .inline-highlight {
+  /*background-color: #B7B1F2;*/
+  /*color: #252525;*/
+  color: #B7B1F2;
+  /*padding: 2px 4px;*/
+  /*border-radius: 3px;*/
+  /*font-weight: bold;*/
+  font-size: 1.1em;
+  border-left: 4px solid #B7B1F2; /* Adjust color */
+  padding-left: 10px;
+}
+
+h3 .inline-subtext {
+  color: #ccc;
+  font-size: smaller;
+
+}
+
+
+hr {
+  margin-top: 1px;
 }
