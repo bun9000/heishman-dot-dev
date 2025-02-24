@@ -5,9 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '🧑‍💻 📈 🌿',
+  title: 'heishman.dev',
   tagline: 'rooted in code, grounded in data, and cultivated with curiosity.',
-  favicon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -101,7 +101,8 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} // Built with Docusaurus.`,
+      // copyright: `Copyright © ${new Date().getFullYear()} // Built with Docusaurus.`,
+      copyright: `built with <a href="https://docusaurus.io/">docusaurus</a>.`,
     },
     prism: {
       theme: prismThemes.github,
