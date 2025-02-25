@@ -41,6 +41,13 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/bun9000/heishman-dot-dev',
+          lastVersion: "current",
+          versions: {
+            current: {
+              label: "Latest",
+              path: "docs"
+            }
+          }
         },
         blog: {
           showReadingTime: true,
@@ -68,7 +75,8 @@ const config: Config = {
     // Replace with your project's social card
     // image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      defaultMode: 'dark'
+      defaultMode: 'dark',
+      disableSwitch: true,
     },
     navbar: {
       title: 'kh%',
@@ -94,8 +102,17 @@ const config: Config = {
         {to: '/usr', label: 'usr', position: 'left'},
         {
           href: 'https://github.com/bun9000',
+          label: 'LinkedIn',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/bun9000',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
         },
       ],
     },
