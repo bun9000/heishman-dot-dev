@@ -1,17 +1,17 @@
 :root {
-  --ifm-color-primary: #f7a1b3;
+  --ifm-color-primary: #333;
   --ifm-color-primary-dark: #f699ac;
   --ifm-color-primary-darker: #f591a5;
   --ifm-color-primary-darkest: #f2899d;
-  --ifm-color-primary-light: #f8a7ba;
+  --ifm-color-primary-light: #c03153;
   --ifm-color-primary-lighter: #f9adb0;
   --ifm-color-primary-lightest: #fad3d2;
   --ifm-code-font-size: 95%;
-  --ifm-heading-color: #fcd2f1;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
+  --ifm-heading-color: #fcd2f1;
   --ifm-color-primary: #ddd;
   --ifm-color-primary-dark: #D0BFFF;
   --ifm-color-primary-darker: #DFCCFB;
@@ -30,6 +30,11 @@
   /*--ifm-hr-margin-vertical-top: 1px;*/
 }
 
+/*h3 [data-theme='light'] {*/
+/*  color: #B7B1F2;*/
+/*}*/
+
+
 .footer--dark {
   --ifm-footer-background-color: #222;
 }
@@ -44,23 +49,24 @@
   font-size: x-large;
 }
 
-h1 {
+h1  {
   /*color: #FBF3B9;*/
   font-size: 3em;
   /*font-weight: normal;*/
 }
 
-h2 {
+h2  {
   margin-top: 2em;
-  color: #FBF3B9;
   font-weight: normal;
   font-size: 1.9em;
+  color: #FBF3B9;
 }
 
 h3 {
-  color: #B7B1F2;
-  margin-top: 2.5em;
+  margin-top: 2em;
   font-weight: normal;
+  color: #B7B1F2;
+  font-size: 1.5em;
 
 }
 
@@ -71,20 +77,24 @@ h4 {
 
 }
 
+
 h3 .inline-highlight {
   /*background-color: #B7B1F2;*/
   /*color: #252525;*/
-  color: #B7B1F2;
   /*padding: 2px 4px;*/
   /*border-radius: 3px;*/
   /*font-weight: bold;*/
   font-size: 1.1em;
-  border-left: 4px solid #B7B1F2; /* Adjust color */
   padding-left: 10px;
+  border-left: 4px solid #333;
+  border-left: 4px solid #B7B1F2;
 }
 
 h3 .inline-subtext {
   color: #ccc;
+}
+
+h3 .inline-subtext {
   font-size: smaller;
 
 }
@@ -105,4 +115,35 @@ hr {
   margin: 0; /* Prevents unwanted spacing */
   padding: 0;
 
+}
+
+
+.tech-list {
+  list-style-type: none; /* Removes bullets */
+  padding-left: 15px;
+  /*margin: 0;*/
+}
+
+.tech-list li {
+  margin-bottom: 6px; /* Adds spacing between items */
+}
+
+.aux-systems-container {
+  /*background-color: rgba(243, 243, 243, 0.2); !* Soft pastel LCARS-style *!*/
+  /*border: 2px solid rgba(200, 220, 255, 0.5);*/
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 800px;
+  /*margin: px auto;*/
+}
+
+.aux-systems-container p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.aux-systems-container strong {
+  /*color: #FFF; !* Accent color *!*/
 }
